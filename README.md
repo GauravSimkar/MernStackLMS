@@ -54,6 +54,12 @@ A full-featured web application built for managing and consuming online courses.
 -Mark exam as active/inactive (for scheduling).
 -Update exams anytime.
 
+#### Doubt Clearing Sessions
+-Instructors can schedule live doubt-clearing sessions using the Zoom API.
+-Only sessions scheduled after the current time are visible in the instructor dashboard.
+-Manage session details like topic, timing, and Zoom link within the course panel.
+-Sessions are automatically hidden once the scheduled time has passed.
+
 
 ### 🎓 Student Functionality *************************
 
@@ -86,6 +92,12 @@ Copy/paste disabled.
 Instant scorecard on submission.
 View correct answers (if allowed by instructor).
 Leaderboard showing top performers for the course exam.
+
+#### Doubt Clearing Sessions
+-Students receive in-app notifications when an instructor schedules a new doubt-clearing session.
+-Each purchased course includes an "Ask Doubt" button, allowing students to submit queries directly to instructors.
+-Students can view upcoming doubt sessions with topic, time, and Zoom join link inside the course.
+-Join sessions securely via integrated Zoom, only if enrolled in the respective course.
 
 ####  Pomodoro Timer Integration
 Boosts student focus and productivity.
